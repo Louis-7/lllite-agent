@@ -1,0 +1,30 @@
+{
+  "name": "lllite-agent",
+  "version": "1.0.0",
+  "description": "A light weight agent",
+  "homepage": "https://github.com/Louis-7/lllite-agent#readme",
+  "bugs": {
+    "url": "https://github.com/Louis-7/lllite-agent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louis-7/lllite-agent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "dev": "node --experimental-strip-types --watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2"
+  }
+}
